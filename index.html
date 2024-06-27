@@ -60,7 +60,7 @@
               <!-- Profile dropdown -->
               <div class="relative ml-3">
                 <div>
-                  <button type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                  <button type="button" class="relative flex rounded-full bg-black text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     <span class="sr-only">Open user menu</span>
                     <img class="h-8 w-8 rounded-full" src="qamar.jpg" alt="">
                   </button>
@@ -76,10 +76,10 @@
             <a href="#home" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
             <a href="#about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
             <a href="#experience" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Experience</a>
-            <a href="skills" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
-            <a href="education" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Education</a>
-            <a href="projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-            <a href="contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
+            <a href="#skills" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Skills</a>
+            <a href="#education" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Education</a>
+            <a href="#projects" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+            <a href="#contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
           </div>
         </div>
       </nav>
@@ -109,8 +109,8 @@
         </div>
     </header>
 
-    <!-- New Section -->
-    <section id="about" vm,k8 class="relative h-[180vh] overflow-hidden ">
+    <!-- About Section -->
+    <section id="about" class="relative h-[180vh] overflow-hidden ">
         <video src="./cding.mp4" autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover"></video>
         <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         <div class="relative z-10 flex flex-col md:flex-row items-center justify-center h-full text-white mt-30">
@@ -137,7 +137,63 @@
         </div>
     </section>
 
-    
+    <!-- Experience Section -->
+    <section id="experience" class="relative h-auto overflow-hidden bg-black text-white py-20">
+        <video src="./cding.mp4" autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover"></video>
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-white">Experience</h2>
+            </div>
+            <div class="space-y-8">
+                <div class="p-4 bg-black rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2"> Freelance Graphic Designer </h3>
+                    <p class="text-gray-300">June 2018 - Present</p>
+                    <p class="text-gray-300">Graphic Designer on Fiver</p>
+                </div>
+                <div class="p-4 bg-black rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Worked at AM Solution</h3>
+                    <p class="text-gray-300">January 2018 - May 2021</p>
+                    <p class="text-gray-300">Worked with various clients across different industries, delivering creative and effective design solutions.</p>
+                </div>
+                <div class="p-4 bg-black rounded-lg shadow-2xl shadow-white">
+                    <h3 class="text-xl font-semibold mb-2">Freelanc Logo Designer</h3>
+                    <p class="text-gray-300">June 2021 - Present</p>
+                    <p class="text-gray-300">Working on logo designing and digital marketing at fiver, upwork and freelancer.com</p>
+                </div>
+              
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="relative h-auto overflow-hidden bg-gray-900 text-white py-20">
+        <video src="./cding.mp4" autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover"></video>
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-white">Skills</h2>
+                <p class="mt-4 text-lg">Here are some of my key skills:</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="p-4 bg-black rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
+                    <p class="text-gray-300">Proficient in Adobe Creative Suite (Photoshop, Illustrator, InDesign).</p>
+                </div>
+                <div class="p-4 bg-black rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Digital Marketing</h3>
+                    <p class="text-gray-300">Experience in SEO, social media marketing, and content strategy.</p>
+                </div>
+                <div class="p-4 bg-black rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Photography</h3>
+                    <p class="text-gray-300">Skilled in portrait, landscape, and product photography.</p>
+                </div>
+                <!-- Add more skill cards as needed -->
+            </div>
+        </div>
+    </section>
+
     <script>
         document.getElementById('mobile-menu-button').addEventListener('click', function () {
           var menu = document.getElementById('mobile-menu');
